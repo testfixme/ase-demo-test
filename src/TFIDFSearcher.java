@@ -75,7 +75,7 @@ public class TFIDFSearcher extends Searcher
 			docLength.put(doc.getId(), sum);
 		}
 		
-		//System.out.println(docLength);
+		System.out.println(docLength);
 		
 		//System.out.println("TF"+findTf("cancel", this.documents.get(0).getTokens()));
 		//System.out.println(idf.get("cancel"));
