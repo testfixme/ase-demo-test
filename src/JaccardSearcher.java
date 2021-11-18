@@ -31,7 +31,7 @@ public class JaccardSearcher extends Searcher{
 			Set<String> union = new HashSet<String>(qTokens);
 			intersec.retainAll(doc.getTokens());
 			union.addAll(doc.getTokens());
-			//System.out.println(intersec);
+			System.out.println(intersec);
 			//System.out.println(union);
 			double score = 0.0;
 			if(intersec.size() != 0 && union.size() != 0) {
