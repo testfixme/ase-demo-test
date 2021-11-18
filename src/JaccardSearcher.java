@@ -47,7 +47,7 @@ public class JaccardSearcher extends Searcher{
 				}
 				result.add(temp);
 				//System.out.println("Adding : "+temp.getScore());
-				//System.out.println(result);
+				System.out.println(result);
 			}
 		}
 		// We need to check if SearchResult was created on the suitable size of ArrayList 
